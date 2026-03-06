@@ -2,7 +2,7 @@
 
 ## Digital Echoes Sales Performance Analytics
 
-End‑to‑end sales analytics project using SQL, Power BI, and KPI modelling to analyse revenue trends, campaign ROI, and customer behaviour for Digital Echoes.
+End‑to‑end sales analytics project using SQL, Power BI, and KPI modelling to analyse revenue trends, channel profitability, and regional performance for Digital Echoes.
 
 This project delivers a full end‑to‑end analysis of sales performance, combining SQL, Power BI, and KPI modelling to uncover trends, diagnose performance issues, and support commercial decision‑making. It demonstrates practical experience in data cleaning, modelling, dashboard design, and insight generation.
 
