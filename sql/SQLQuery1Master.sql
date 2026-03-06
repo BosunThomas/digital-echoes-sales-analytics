@@ -21,8 +21,6 @@ FROM Sales_Tables
 GROUP BY region
 ORDER BY total_revenue DESC;
 
-
-
 SELECT 
     SUM(total_revenue) AS grand_total_revenue,
     SUM(total_profit) AS grand_total_profit
@@ -224,16 +222,11 @@ Sales_tables
 GROUP BY 
 Region;
 
-
-
-
-
-
-
 **// CREATING TABLE VIEW FROM A REAL TABLE **//
 
 Create View Sales_Table_View AS
 Select * From Sales_Tables_View;
+
 
 
 
