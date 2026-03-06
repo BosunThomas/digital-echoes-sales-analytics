@@ -36,15 +36,12 @@ Step 2: Convert (write) into the new column (Units_Sold_Converted) from the old 
 UPDATE SALES_TABLE
 SET Units_Sold_Converted = CONVERT(int,Units_Sold);
 
-Step 3: Delete the previous column called ìUnits_Soldî
+Step 3: Delete the previous column called ‚ÄúUnits_Sold‚Äù
 
 ALTER TABLE SALES_TABLE
 DROP COLUMN Units_Sold;
 
-Step 4: Rename the new column header from Units_Sold_Converted to ìUnits_Soldî using the ìDESIGNî GUI
-
-
-
+Step 4: Rename the new column header from Units_Sold_Converted to ‚ÄúUnits_Sold‚Äù using the ‚ÄúDESIGN‚Äù GUI
 
 SELECT * FROM sales_table;
 
@@ -67,13 +64,13 @@ WHERE
   AND Total_Profit IS NOT NULL;
 
 UPDATE Sales_Table
-SET unit_price = REPLACE(REPLACE(unit_price, '£', ''), ',', '');
+SET unit_price = REPLACE(REPLACE(unit_price, '¬£', ''), ',', '');
 UPDATE Sales_Table
-SET Unit_Cost = REPLACE(REPLACE(Unit_Cost, '£', ''), ',', '');
+SET Unit_Cost = REPLACE(REPLACE(Unit_Cost, '¬£', ''), ',', '');
 UPDATE Sales_Table
-SET total_revenue = REPLACE(REPLACE(Total_Revenue, '£', ''), ',', '');
+SET total_revenue = REPLACE(REPLACE(Total_Revenue, '¬£', ''), ',', '');
 UPDATE Sales_Table
-SET Total_Profit = REPLACE(REPLACE(Total_Profit, '£', ''), ',', '');
+SET Total_Profit = REPLACE(REPLACE(Total_Profit, '¬£', ''), ',', '');
 
 UPDATE Sales_Table
 SET unit_price = NULL
@@ -91,8 +88,6 @@ WHERE TRY_CONVERT(DECIMAL(10,2), Total_Profit) IS NULL;
 
 ALTER TABLE sales_table
 ALTER COLUMN unit_price DECIMAL(10,2);
-
-
 
 ALTER TABLE sales_table
 ADD total_profit_decimal DECIMAL(10,2);
@@ -114,3 +109,4 @@ EXEC sp_rename 'sales_table.total_profit_decimal', 'total_profit', 'COLUMN';
 
 
 SELECT * FROM sales_table;
+
