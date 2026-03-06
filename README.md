@@ -83,3 +83,9 @@ Bosun Thomas Olowu
 Senior Data Analyst  
 LinkedIn: www.linkedin.com/in/bosun-thomas-olowu-2265053b2  
 Email: bosunthomas0422@gmail.com
+
+## Documentation
+- [Business Summary](documentation/business-summary.md)
+- [Methodology](documentation/methodology.md)
+- [Insights](documentation/insights.md)
+- [KPI Definitions](documentation/kpi_definitions.md)
