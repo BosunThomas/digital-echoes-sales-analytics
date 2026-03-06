@@ -1,3 +1,5 @@
+![Project Banner] 
+
 # digital-echoes-sales-analytics
 End‑to‑end sales analytics project using SQL, Power BI, and KPI modelling to analyse revenue trends, campaign ROI, and customer behaviour for Digital Echoes.
 # Digital Echoes Sales Performance Analytics
@@ -89,3 +91,15 @@ Email: bosunthomas0422@gmail.com
 - [Methodology](documentation/methodology.md)
 - [Insights](documentation/insights.md)
 - [KPI Definitions](documentation/kpi_definitions.md)
+
+## Project Structure
+## How to Reproduce
+1. Download the dataset from the `data/raw` folder.
+2. Run the SQL scripts in the `sql` folder to clean and transform the data.
+3. Open the Power BI file in the `powerbi` folder.
+4. Refresh the data model to generate the visuals.
+## Tech Stack
+- SQL (data cleaning, joins, KPI logic)
+- Power BI (modelling, DAX, dashboards)
+- Excel (initial exploration)
+- GitHub (version control & documentation)
