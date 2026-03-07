@@ -11,6 +11,8 @@ Shows ROI by channel, cost per acquisition, and conversion performance across ca
 
 (https://github.com/BosunThomas/digital-echoes-sales-analytics/blob/main/powerbi/dashboard_screenshots/SalesProfitchannelsReport.jpg?raw=true)
 
+(https://github.com/BosunThomas/digital-echoes-sales-analytics/blob/main/powerbi/dashboard_screenshots/Gp3.jpg?raw=true)
+
 Sales Funnel
 Visualises the customer journey from lead → qualified → proposal → closed. Includes drop‑off analysis and funnel conversion rates.
 Customer Insights
