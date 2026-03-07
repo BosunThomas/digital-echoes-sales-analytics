@@ -9,7 +9,7 @@ A high‑level overview of total revenue, profit, units sold, and YoY performanc
 Campaign Performance
 Shows ROI by channel, cost per acquisition, and conversion performance across campaigns. Helps identify which marketing efforts deliver the strongest returns.
 
-
+(https://github.com/BosunThomas/digital-echoes-sales-analytics/blob/main/powerbi/dashboard_screenshots/SalesProfitchannelsReport.jpg?raw=true)
 
 Sales Funnel
 Visualises the customer journey from lead → qualified → proposal → closed. Includes drop‑off analysis and funnel conversion rates.
