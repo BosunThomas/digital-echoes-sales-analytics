@@ -1,6 +1,10 @@
 Dashboard Highlights
+
 Executive Summary
+
 A high‑level overview of total revenue, profit, units sold, and YoY performance. This page provides a quick snapshot of overall business health and highlights key trends.
+
+
 
 Campaign Performance
 Shows ROI by channel, cost per acquisition, and conversion performance across campaigns. Helps identify which marketing efforts deliver the strongest returns.
