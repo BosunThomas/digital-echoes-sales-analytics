@@ -8,6 +8,9 @@ A high‑level overview of total revenue, profit, units sold, and YoY performanc
 
 Campaign Performance
 Shows ROI by channel, cost per acquisition, and conversion performance across campaigns. Helps identify which marketing efforts deliver the strongest returns.
+
+
+
 Sales Funnel
 Visualises the customer journey from lead → qualified → proposal → closed. Includes drop‑off analysis and funnel conversion rates.
 Customer Insights
