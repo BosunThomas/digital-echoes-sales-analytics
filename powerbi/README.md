@@ -4,7 +4,7 @@ Executive Summary
 
 A high‑level overview of total revenue, profit, units sold, and YoY performance. This page provides a quick snapshot of overall business health and highlights key trends.
 
-
+(https://github.com/BosunThomas/digital-echoes-sales-analytics/blob/main/powerbi/dashboard_screenshots/DigitalEchoesSalesDashboard.jpg?raw=true)
 
 Campaign Performance
 Shows ROI by channel, cost per acquisition, and conversion performance across campaigns. Helps identify which marketing efforts deliver the strongest returns.
