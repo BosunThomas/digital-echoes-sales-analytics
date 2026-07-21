@@ -1,0 +1,11 @@
+Total Revenue =
+SUM(FactSales[Revenue])
+
+Profit Margin % =
+DIVIDE([Total Profit], [Total Revenue])
+
+Revenue YTD =
+TOTALYTD(
+    [Total Revenue],
+    'Date'[Date]
+)
