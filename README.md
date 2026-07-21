@@ -1,3 +1,5 @@
+<img width="1284" height="736" alt="PowerPoint 4" src="https://github.com/user-attachments/assets/fb5c9932-cdb0-4116-95cc-b38ffc92dc94" />
+<img width="1314" height="743" alt="PowerBI 2" src="https://github.com/user-attachments/assets/8ca2e98c-0a2d-40e9-8c02-35759f0bc411" />
 <img width="1629" height="823" alt="SalesPowerBI" src="https://github.com/user-attachments/assets/dc559e0a-4efd-4b04-941a-beee2435974d" />
 <img width="1312" height="738" alt="PowerBI" src="https://github.com/user-attachments/assets/2ac59276-efd4-4062-9f78-a821d16c957d" />
 <img width="1298" height="747" alt="PowerPoint 2" src="https://github.com/user-attachments/assets/d62a92a0-abac-4202-b1fa-8f231951feda" />
