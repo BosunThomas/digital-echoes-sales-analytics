@@ -137,7 +137,7 @@ This project enabled Digital Echoes to:
 This project demonstrates an end‑to‑end sales analytics workflow, combining SQL, Power BI, and KPI modelling to deliver actionable insights for commercial decision‑making. The structured documentation, reproducible workflow, and validated KPIs reflect industry‑standard BI and QA practices.
 
 ## Contact
-Bosun Thomas Olowu  
-Senior Data Analyst  
+Tunbosun Olowu  
+Data Analyst  
 LinkedIn: www.linkedin.com/in/bosun-thomas-olowu-2265053b2  
 Email: bosunthomas0422@gmail.com
