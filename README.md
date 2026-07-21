@@ -1,3 +1,8 @@
+<img width="1629" height="823" alt="SalesPowerBI" src="https://github.com/user-attachments/assets/dc559e0a-4efd-4b04-941a-beee2435974d" />
+<img width="1312" height="738" alt="PowerBI" src="https://github.com/user-attachments/assets/2ac59276-efd4-4062-9f78-a821d16c957d" />
+<img width="1298" height="747" alt="PowerPoint 2" src="https://github.com/user-attachments/assets/d62a92a0-abac-4202-b1fa-8f231951feda" />
+<img width="1305" height="748" alt="PowerPoint 3" src="https://github.com/user-attachments/assets/9b2e08d7-507e-4033-801d-1c83b4f222bc" />
+
 ## Digital Echoes Sales Performance Analytics
 
 End‑to‑end sales analytics project using SQL, Power BI, and KPI modelling to analyse revenue trends, channel profitability, and regional performance for Digital Echoes.
