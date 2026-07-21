@@ -6,17 +6,21 @@
 <img width="1305" height="748" alt="PowerPoint 3" src="https://github.com/user-attachments/assets/9b2e08d7-507e-4033-801d-1c83b4f222bc" />
 
 ## Digital Echoes Sales Performance Analytics
-
-End‑to‑end sales analytics project using SQL, Power BI, and KPI modelling to analyse revenue trends, channel profitability, and regional performance for Digital Echoes.
+Portfolio of end-to-end SQL and Power BI analytics projects available on GitHub, demonstrating data modelling, dashboard development, KPI reporting, and business insight generation.
 
 This project delivers a full end‑to‑end analysis of sales performance, combining SQL, Power BI, and KPI modelling to uncover trends, diagnose performance issues, and support commercial decision‑making. It demonstrates practical experience in data cleaning, modelling, dashboard design, and insight generation.
 
 ---
+## Project at a Glance
+- Dataset: 1,000,000+ sales records
+- KPIs Developed: 15+
+- Data Model: Star Schema
+- SQL Scripts: 20+
+- Power BI Pages: 6
+- Technologies: SQL, Power BI, DAX, Power Query, Excel
 
 ## Project Overview
-
 Digital Echoes needed a scalable, accurate, and automated way to understand:
-
 - Why yearly sales fluctuated  
 - Which campaigns generated the highest ROI  
 - How customer segments behaved across the funnel  
@@ -24,7 +28,37 @@ Digital Echoes needed a scalable, accurate, and automated way to understand:
 
 This project built an end‑to‑end analytics workflow to answer those questions.
 
+## Key Skills Demonstrated
+- SQL Query Development
+- Power BI Dashboard Design
+- DAX Measures
+- Power Query (M)
+- Data Cleaning & Transformation
+- Star Schema Data Modelling
+- KPI Development
+- Business Intelligence
+- Executive Reporting
+- Data Storytelling
+- Commercial Analytics
+
+## Some DAX Calculations
+Total Revenue =
+SUM(FactSales[Revenue])
+
+Profit Margin =
+DIVIDE([Total Profit],[Total Revenue])
+
+YoY Revenue Growth =
+...
 ---
+## Challenges & Solutions
+| Challenge                  | Solution                                               |
+| -------------------------- | ------------------------------------------------------ |
+| Inconsistent sales records | Applied SQL cleansing and validation                   |
+| Slow report performance    | Optimised relationships and DAX measures               |
+| Missing regional values    | Implemented quality checks and standardised dimensions |
+| KPI inconsistencies        | Defined reusable business logic                        |
+
 ## Documentation
 - [Business Summary](documentation/business-summary.md)  
 - [Methodology](documentation/methodology.md)  
@@ -62,7 +96,7 @@ A high‑level overview of sales performance, growth trends, and customer behavi
 - Cost per acquisition
 - Conversion by campaign
 
-(https://private-user-images.githubusercontent.com/265298843/558920648-0b113678-b44e-4803-9bd9-b31eb119649a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MDU4ODgsIm5iZiI6MTc3MjgwNTU4OCwicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTIwNjQ4LTBiMTEzNjc4LWI0NGUtNDgwMy05YmQ5LWIzMWViMTE5NjQ5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxMzU5NDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zMGE2MGFjNjk5OWQxMmY1ZDczMjgwOTIxZmY1M2Y4Y2Q4YTc5ZThjYTdmYzA5MDM0NzNhYTgzYjMwNzg4ZGI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.G2GCCWwwM4Tc1QLi_e8bIIy7n5qmyjODcxaYaW_Fn50)
+(https://public-user-images.githubusercontent.com/265298843/558920648-0b113678-b44e-4803-9bd9-b31eb119649a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MDU4ODgsIm5iZiI6MTc3MjgwNTU4OCwicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTIwNjQ4LTBiMTEzNjc4LWI0NGUtNDgwMy05YmQ5LWIzMWViMTE5NjQ5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxMzU5NDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zMGE2MGFjNjk5OWQxMmY1ZDczMjgwOTIxZmY1M2Y4Y2Q4YTc5ZThjYTdmYzA5MDM0NzNhYTgzYjMwNzg4ZGI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.G2GCCWwwM4Tc1QLi_e8bIIy7n5qmyjODcxaYaW_Fn50)
 
 ### Sales Funnel
 - Lead → Qualified → Proposal → Closed
@@ -109,13 +143,13 @@ This project enabled Digital Echoes to:
 ## KPI Visual Examples
 
 ### Annual Revenue Growth
-![Annual Revenue Growth](visuals/annual_revenue_growth.png) (https://private-user-images.githubusercontent.com/265298843/558911690-d57ce912-a63f-49ff-adee-9c8f068c8d7f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MDk4ODgsIm5iZiI6MTc3MjgwOTU4OCwicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTExNjkwLWQ1N2NlOTEyLWE2M2YtNDlmZi1hZGVlLTljOGYwNjhjOGQ3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxNTA2MjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wM2Q3MDg2OWRiYTQwMWYwYjBhYWFkN2RiMGM4MGVlOThjNGE5ZTBhOWE3MTI5M2YwZmEzMjQ2MzY5ZWJiZTBlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.drIyWKGAWKvPCHxVEcRz-9eKi5WPv7nlhaTotmV8TW0)
+![Annual Revenue Growth](visuals/annual_revenue_growth.png) jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MDk4ODgsIm5iZiI6MTc3MjgwOTU4OCwicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTExNjkwLWQ1N2NlOTEyLWE2M2YtNDlmZi1hZGVlLTljOGYwNjhjOGQ3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxNTA2MjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wM2Q3MDg2OWRiYTQwMWYwYjBhYWFkN2RiMGM4MGVlOThjNGE5ZTBhOWE3MTI5M2YwZmEzMjQ2MzY5ZWJiZTBlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.drIyWKGAWKvPCHxVEcRz-9eKi5WPv7nlhaTotmV8TW0)
 
 ### Channel Profitability Ratio
-![Channel Profitability Ratio](visuals/channel_profitability.png) (https://private-user-images.githubusercontent.com/265298843/558924154-05fa50da-e846-4194-87a4-da42683a879a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MTAxMjgsIm5iZiI6MTc3MjgwOTgyOCwicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTI0MTU0LTA1ZmE1MGRhLWU4NDYtNDE5NC04N2E0LWRhNDI2ODNhODc5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxNTEwMjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MWFhZDBkNzAwYjJhZjIxNTA2ZjM1ODM0ZmE0YTg0NzY0ZTdiYzE4ZjQwNjZlNzliNzMzZTVmZjJkZDBkOWIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jLd3RIaznXJ8mH06qcTRD2bJs8yBGBXC7BtaYgMT_vw)
+![Channel Profitability Ratio](visuals/channel_profitability.png) jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MTAxMjgsIm5iZiI6MTc3MjgwOTgyOCwicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTI0MTU0LTA1ZmE1MGRhLWU4NDYtNDE5NC04N2E0LWRhNDI2ODNhODc5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxNTEwMjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MWFhZDBkNzAwYjJhZjIxNTA2ZjM1ODM0ZmE0YTg0NzY0ZTdiYzE4ZjQwNjZlNzliNzMzZTVmZjJkZDBkOWIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jLd3RIaznXJ8mH06qcTRD2bJs8yBGBXC7BtaYgMT_vw)
 
 ### Regional Efficiency and Volume
-![Regional Efficiency and Volume](visuals/regional_efficiency.png) (https://private-user-images.githubusercontent.com/265298843/558912970-6b9d5d54-e2aa-49be-afea-de05dc937e35.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MTAyMjMsIm5iZiI6MTc3MjgwOTkyMywicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTEyOTcwLTZiOWQ1ZDU0LWUyYWEtNDliZS1hZmVhLWRlMDVkYzkzN2UzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxNTEyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMGI2MjY0OWM4OGYzNDM5YzljNDYwNDlmNmViN2FkODYwMzRjZTA3NjRmZDlkZTY3YTZjNDA4ZWFiZGI0YjNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.13bfTcpQty0AhGKDhB-btInTZxy7cLKmgE03LwGKwGE)
+![Regional Efficiency and Volume](visuals/regional_efficiency.png) jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI4MTAyMjMsIm5iZiI6MTc3MjgwOTkyMywicGF0aCI6Ii8yNjUyOTg4NDMvNTU4OTEyOTcwLTZiOWQ1ZDU0LWUyYWEtNDliZS1hZmVhLWRlMDVkYzkzN2UzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNlQxNTEyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMGI2MjY0OWM4OGYzNDM5YzljNDYwNDlmNmViN2FkODYwMzRjZTA3NjRmZDlkZTY3YTZjNDA4ZWFiZGI0YjNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.13bfTcpQty0AhGKDhB-btInTZxy7cLKmgE03LwGKwGE)
 
 ### KPI Summary Cards
 ![KPI Summary Cards](visuals/kpi_cards.png)
@@ -141,11 +175,15 @@ This project enabled Digital Echoes to:
 
 ---
 ## Conclusion
-This project demonstrates an end‑to‑end sales analytics workflow, combining SQL, Power BI, and KPI modelling to deliver actionable insights for commercial decision‑making. The structured documentation, reproducible workflow, and validated KPIs reflect industry‑standard BI and QA practices.
+This project demonstrates my ability to deliver an end-to-end Business Intelligence solution—from data extraction and transformation through dimensional modelling, KPI development, dashboard design, and executive reporting. It reflects the analytical, technical, and stakeholder-focused skills required to support data-driven decision-making in modern organisations.
 
-## Contact
-Tunbosun Olowu  
-Data Analyst 
+## About the Author
+**Tunbosun Olowu**
+Business Intelligence & Data Analyst
+Specialising in SQL, Power BI, DAX, Power Query and data visualisation, with experience transforming complex datasets into actionable business insights.
+
+📧 bosunthomas0422@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/bosun-thomas-olowu-2265053b2
+
 Portfolio of end-to-end SQL and Power BI analytics projects available on GitHub, demonstrating data modelling, dashboard development, KPI reporting, and business insight generation.
-LinkedIn: www.linkedin.com/in/bosun-thomas-olowu-2265053b2  
-Email: bosunthomas0422@gmail.com
+
