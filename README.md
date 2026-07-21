@@ -145,6 +145,7 @@ This project demonstrates an end‑to‑end sales analytics workflow, combining 
 
 ## Contact
 Tunbosun Olowu  
-Data Analyst  
+Data Analyst 
+Portfolio of end-to-end SQL and Power BI analytics projects available on GitHub, demonstrating data modelling, dashboard development, KPI reporting, and business insight generation.
 LinkedIn: www.linkedin.com/in/bosun-thomas-olowu-2265053b2  
 Email: bosunthomas0422@gmail.com
