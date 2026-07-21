@@ -1,0 +1,6 @@
+| Challenge                | Solution                              |
+| ------------------------ | ------------------------------------- |
+| Inconsistent sales data  | Built SQL cleansing pipeline          |
+| Missing regional values  | Applied validation and quality checks |
+| Slow report refresh      | Optimised model relationships and DAX |
+| Complex KPI calculations | Developed reusable DAX measures       |
